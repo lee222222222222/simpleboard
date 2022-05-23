@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 게시판 글 작성 -->
+   <insert id="insert">
+	   INSERT INTO board_tb(    BNO 
+	   					      , TITLE 
+	   					      , CONTENT 
+	   					      , WRITER  )
+	                 VALUES(    1 
+	                 		  , #{title}
+	                 		  , #{content}
+	                 		  , #{writer}  )
+   
+   </insert>
